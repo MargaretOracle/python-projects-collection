@@ -1,21 +1,67 @@
-# Python Projects Collection
+# Word Scramble Game
 
-A growing collection of Python projects that demonstrate practical programming skills, problem-solving, and hands-on experience with Python. Projects range from beginner-friendly exercises to intermediate applications. This repository will be continuously updated as new projects are added.
+A simple and interactive Python word scramble game. The player is shown a scrambled word and must guess the correct original word within 3 attempts. Each correct answer earns points, and the game continues until the player chooses to stop.
 
 ---
 
-## Current Projects
+## Project Files
 
-### 1. Scramble Game
-A simple Python word game that challenges the player to unscramble randomly shuffled words.  
+- `pythonprojects.py` → main Python script  
+- `words.txt` → word list used by the game  
+- `.gitignore` → ignores unnecessary files like virtual environments and compiled Python files  
 
-**Folder:** `scramble-game`  
-**Description:** Guess the correct word from a shuffled version within 3 attempts to earn points.  
+---
 
-**How to Run:**
-1. Ensure `words.txt` is in the same folder as `pythonprojects.py`.
-2. Open a terminal in the project folder.
-3. Run the command:
+## How to Play
+
+1. Run `pythonprojects.py`
+2. The game will show a scrambled word.
+3. You have **3 attempts** to guess the correct word.
+4. Each correct guess earns **5 points**.
+5. After each word, you can choose to continue or quit.
+
+---
+
+## How to Run the Game
+
+1. Navigate to the project folder:
+
    ```bash
-   python pythonprojects.py
+   cd word-scramble-game
+2. Run the python script
+    ```bash
+   python Pythonprojects.py
+--- 
+
+## Requirements
+
+- Python 3.6 or higher
+- Terminal/command prompt
+- Ensure words.txt is in the same folder as the script
+
+---
+
+## Ideas for Future Improvements
+
+- [Add difficulty levels (easy, medium, hard)](#)  
+- [Add a timer for each attempt](#)  
+- [Track high scores across sessions](#)  
+- [Add hints after failed attempts](#)  
+- [Convert to GUI version using Tkinter or PyQt](#)  
+
+---
+
+## Changelog
+
+-  **v1.0 — Initial Version (2025-11-10)**  
+  - Basic word scramble game implemented  
+  - Added score system (+5 points for correct answers)  
+  - Added 3-attempt rule  
+  - Added word loading from `words.txt`  
+  - Added continuous play option  
+
+   
+   
+
+
 
