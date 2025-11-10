@@ -1,0 +1,14 @@
+# Virtual environment
+jac-env/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE folders
+.vscode/
+.idea/
+
+# Logs
+*.log
